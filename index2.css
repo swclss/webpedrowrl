@@ -1,0 +1,18 @@
+body {
+    color: rgb(128, 193, 247);
+    background-color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a { 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
