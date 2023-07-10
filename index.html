@@ -49,7 +49,7 @@
                 <img src="./img/icons8-steam.svg"></img>
                 <p>Steam</p>
             </a>
-            // Função para exibir a mensagem inicial
+            //Função para exibir a mensagem inicial
 function exibirMensagemInicial() {
   var mensagemInicial = "Olá, me chamo Eva e te auxiliarei no que fazer certo?";
   exibirMensagem(mensagemInicial, [
@@ -60,7 +60,7 @@ function exibirMensagemInicial() {
   ]);
 }
 
-// Função para exibir uma pergunta com botões de múltipla escolha
+//Função para exibir uma pergunta com botões de múltipla escolha
 function exibirPergunta() {
   var pergunta = "O que você deseja?";
   exibirMensagem(pergunta, [
@@ -75,13 +75,13 @@ function exibirPergunta() {
   ]);
 }
 
-// Função para redirecionar para o atendimento humano
+//Função para redirecionar para o atendimento humano
 function redirecionarAtendimento() {
   // Redirecionar para o chat de atendimento humano
   window.location.href = "link_chat_atendimento";
 }
 
-// Função para exibir o link do site
+//Função para exibir o link do site
 function exibirLinkSite() {
   var mensagem = "Aqui estão as informações sobre o nosso site:";
   var link = "link_informacoes_site";
@@ -95,7 +95,7 @@ function exibirLinkSite() {
   ]);
 }
 
-// Função genérica para exibir uma mensagem e os botões correspondentes
+//Função genérica para exibir uma mensagem e os botões correspondentes
 function exibirMensagem(mensagem, botoes) {
   var output = document.getElementById("output");
   output.innerHTML = mensagem;
@@ -111,7 +111,7 @@ function exibirMensagem(mensagem, botoes) {
   output.innerHTML += "<br><br>" + botoesHtml;
 }
 
-// Chamada inicial
+//Chamada inicial
 exibirMensagemInicial();
 
         </footer>
